@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: go-project
+    environment:
+      MYSQL_ROOT_PASSWORD: 0000
+    ports:
+      - "3308:3306"
